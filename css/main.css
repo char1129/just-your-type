@@ -1,14 +1,5 @@
 html {
-
   font-family: "Shadows Into Light", cursive;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
 }
 
 .hidden-seuss {
@@ -39,7 +30,6 @@ h2 {
 p {
   font-family: "Shadows Into Light", cursive;
 }
-
 
 @media only screen and (min-width: 25em) {
 
@@ -72,7 +62,7 @@ p {
 
   .hang-punc,
   .hang-punc2 {
-    display:inline-block;
+    display: inline-block;
     color: blue;
   }
 
@@ -89,10 +79,10 @@ p {
   .hang-punc2 {
     color: purple;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
-
 
   .grid1 {
     display: none;
@@ -111,4 +101,5 @@ p {
   .hang-punc2 {
     color: orange;
   }
+
 }
