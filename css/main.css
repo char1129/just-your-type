@@ -12,7 +12,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: "PT Serif", serif;
+  font-family: "Shadows Into Light", cursive;
 }
 
 *, *::before, *::after {
@@ -21,4 +21,40 @@ html {
 
 body {
   margin: 0;
+}
+
+.hidden-seuss {
+  display: none;
+}
+
+h1 {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .hidden-seuss {
+    display: inline-block;
+  }
+
+  .hidden-seuss2 {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .dr-seuss {
+    text-align:center;
+  }
+
 }

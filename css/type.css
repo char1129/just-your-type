@@ -138,7 +138,7 @@ thead th {
 .max-length {
   margin-left: auto;
   margin-right: auto;
-  max-width: 36em;
+  max-width: 50em;
   width: 100%;
 }
 
@@ -671,6 +671,15 @@ legend {
 
   .hang-punc {
     float: left;
+    margin-left: -1.4em;
+    text-align: right;
+    width: 1.3em;
+  }
+
+ /* Adding ending punctuation css. */
+
+  .hang-punc2 {
+    float: right;
     margin-left: -1.4em;
     text-align: right;
     width: 1.3em;
