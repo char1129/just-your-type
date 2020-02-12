@@ -36,8 +36,16 @@ h2 {
 }
 
 .dr,
-.seuss {
+.seuss,
+.question {
   font-family: Lacquer, sans-serif;
+  color: red;
+}
+
+.hang-punc,
+.hang-punc2 {
+  display: none;
+  color: red;
 }
 
 p {
@@ -46,6 +54,12 @@ p {
 
 
 @media only screen and (min-width: 25em) {
+
+  .dr,
+  .seuss,
+  .question {
+    color: green;
+  }
 
 }
 
@@ -59,14 +73,34 @@ p {
     display: none;
   }
 
+  .dr,
+  .seuss {
+    color: blue;
+  }
+
+  .question {
+    color: black;
+  }
+
+  .hang-punc,
+  .hang-punc2 {
+    display:inline-block;
+    color: blue;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
-  .dr-seuss {
-    text-align:center;
+  .dr,
+  .seuss {
+    color: purple;
   }
 
+  .hang-punc,
+  .hang-punc2 {
+    color: purple;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -80,4 +114,13 @@ p {
     display: block;
   }
 
+  .dr,
+  .seuss {
+    color: orange;
+  }
+
+  .hang-punc,
+  .hang-punc2 {
+    color: orange;
+  }
 }
