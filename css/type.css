@@ -256,7 +256,7 @@ small,
 
 .pico {
   font-size: .1459rem;
-  line-height: rem;
+  line-height: .375rem;
 }
 
 ul {
@@ -651,7 +651,7 @@ legend {
 
   .pico {
     font-size: .1459rem;
-    line-height: rem;
+    line-height: .4rem;
   }
 
   ul,
@@ -675,8 +675,6 @@ legend {
     text-align: right;
     width: 1.3em;
   }
-
- /* Adding ending punctuation css. */
 
   .hang-punc2 {
     float: right;
@@ -1077,7 +1075,7 @@ legend {
 
   .pico {
     font-size: .1459rem;
-    line-height: -0rem;
+    line-height: .425rem;
   }
 
   ul,
@@ -1494,7 +1492,7 @@ legend {
 
   .pico {
     font-size: .1459rem;
-    line-height: -0rem;
+    line-height: .425rem;
   }
 
   ul,
