@@ -27,9 +27,23 @@ body {
   display: none;
 }
 
-h1 {
+.grid3 {
+  display: none;
+}
+
+h2 {
   display: inline-block;
 }
+
+.dr,
+.seuss {
+  font-family: Lacquer, sans-serif;
+}
+
+p {
+  font-family: "Shadows Into Light", cursive;
+}
+
 
 @media only screen and (min-width: 25em) {
 
@@ -49,12 +63,21 @@ h1 {
 
 @media only screen and (min-width: 60em) {
 
+  .dr-seuss {
+    text-align:center;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
-  .dr-seuss {
-    text-align:center;
+
+  .grid1 {
+    display: none;
+  }
+
+  .grid3 {
+    display: block;
   }
 
 }
