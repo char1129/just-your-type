@@ -29,6 +29,7 @@ h2 {
 
 p {
   font-family: "Shadows Into Light", cursive;
+  font-size: .75rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -37,6 +38,10 @@ p {
   .seuss,
   .question {
     color: green;
+  }
+
+  p {
+    font-size: 1rem;
   }
 
 }
@@ -60,6 +65,10 @@ p {
     color: black;
   }
 
+  p {
+    font-size: 1.25rem;
+  }
+
   .hang-punc,
   .hang-punc2 {
     display: inline-block;
@@ -72,7 +81,17 @@ p {
 
   .dr,
   .seuss {
+    display: inline-block;
     color: purple;
+    font-size: 10rem;
+  }
+
+  .hidden-seuss2 {
+    display: none;
+  }
+
+  p {
+    font-size: 1.25rem;
   }
 
   .hang-punc,
@@ -95,6 +114,11 @@ p {
   .dr,
   .seuss {
     color: orange;
+    font-size: 17.942rem;
+  }
+
+  p {
+    font-size: 1.5rem;
   }
 
   .hang-punc,
